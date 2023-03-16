@@ -84,7 +84,7 @@ document.querySelector("#submit").addEventListener("click", () => {
   <i class="fa-solid fa-fan animate-spin text-2xl text-green-600"></i>
   <p class="text-xs animate-pulse">Please Wait, We are checking...</p>
 </div>`;
-  let timeTaken = document.querySelector("#countn");
+  let timeTaken = document.querySelector("#count");
   let totalMark = 0;
   let grade = {
     status: "",
